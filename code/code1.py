@@ -14,10 +14,10 @@ def wordSum(val):
     if(size%2):
         sum+=ord(val[(size//2)])-96
     return sum
-t_sum=""
+tsum=""
 for i in val2:
-    t_sum+=(str(wordSum(i)))
-print(t_sum)
+    tsum+=(str(wordSum(i)))
+print(tsum)
 
 
 
